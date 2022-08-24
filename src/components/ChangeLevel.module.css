@@ -1,0 +1,31 @@
+.decor {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  
+  
+  }
+  
+  .listDecoration {
+    color: black;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 22px;
+    
+  }
+  
+  .listDecoration:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .disablePlan {
+    pointer-events: none;
+    opacity: 0.6;
+    margin-bottom: 6px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 22px;
+  }
